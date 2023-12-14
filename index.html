@@ -11,13 +11,20 @@
 </head>
 <body>
     <div id="main">
-        <div class="container">
             <div id="left">
-                <img src="skambo3 1.png" alt="Skambo Logo" id="logo">
-                <h1>Seja bem vindo!</h1>
-                <p>Acesse sua conta <br> agora mesmo.</p>
-                <button>ENTRAR</button>
-                <a href="#">Esqueci minha senha</a>
+                <div class="grupo">
+                    <div class="image">
+                        <img src="assets/Rectangle 4.svg" alt="Retangle" id="retangle">
+                        <img src="skambo3 1.png" alt="Skambo Logo" id="logo">
+                    </div>
+                    
+                    <div class="texto">
+                    <h1 id="bemvindo">Seja bem vindo!</h1>
+                    <p>Acesse sua conta <br> agora mesmo.</p>
+                    </div>
+                    <button id="entrar">ENTRAR</button>
+                    <a href="#" id="forgot">Esqueci minha senha</a>
+                </div>
             </div>
 
             <div id="right">
@@ -25,13 +32,23 @@
                 <p>Preencha o formulário</p>
 
                 <div class="textfield">
+                    <img src="assets/ant-design_user-add-outlined.png" alt="User icon">
                     <input type="text" id="nome" placeholder="Nome">
+                </div>
+                <div class="textfield">
+                    <img src="assets/carbon_email.png" alt="Email icon">
                     <input type="email" id="email" placeholder="Email">
+                </div>
+                <div class="textfield">
+                    <img src="assets/ri_lock-password-fill.png" alt="Password icon">
                     <input type="password" id="password" placeholder="Senha">
+                </div>
+                <div class="textfield">
                     <input type="submit" id="cadastrar" value="CADASTRAR">
                 </div>
             </div>
         </div>
-    </div>
+        
+    
 </body>
 </html>
